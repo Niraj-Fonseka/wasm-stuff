@@ -3,3 +3,6 @@ build:
 
 serve:
 	go run server/server.go
+
+clean:
+	rm -rf lib.wasm
